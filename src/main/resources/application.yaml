@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: "SpringBoot1"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/TestLesson
+    driver-class-name: org.postgresql.Driver
+    username: 'postgres'
+    password: '0000'
+server:
+  port: 8081
